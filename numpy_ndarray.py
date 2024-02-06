@@ -12,7 +12,7 @@ print("1D NumPy Array:")
 print(arr_1d)
 
 # Using numpy.ndarray to create a 2D array
-arr_2d = np.ndarray(shape=(3, 3), dtype=float, buffer=np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+arr_2d = np.ndarray(shape=(3, 3), dtype=int, buffer=np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
 print("\n2D NumPy Array:")
 print(arr_2d)
 
